@@ -24,6 +24,7 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - Reporting bugs
 - CSS Basics
 - HTML Basics
+- Git
 - Dev Tools
 # Certificates
 - [ISTQB](https://1drv.ms/b/s!Arn5vK3tcZDQhcE8kTW0qc_7iv5gfw?e=Y6uhpu)
