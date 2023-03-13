@@ -37,6 +37,9 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [Pluralsight: Software Testing and Quality Assurance: The Big Picture](https://app.pluralsight.com/library/courses/software-testing-quality-assurance-big-picture/table-of-contents)
 - [Udemy: Practical Software Testing Course](https://www.udemy.com/course/praktyczny-kurs-testowania-oprogramowania/learn/lecture/28938764?start=945#overview)
 - [Pluralsight: Postman 8 Fundamentals](https://app.pluralsight.com/library/courses/postman-fundamentals/table-of-contents)
+# Books
+- Zawód tester. Od decyzji do zdobycia doświadczenia Radosław Smilgin
+- Testowanie Oprogramowania w Praktyce Adam Roman, 
 # My test case examples
 # My bug reports
 # My examples of Postman
