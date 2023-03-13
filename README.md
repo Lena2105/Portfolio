@@ -1,5 +1,5 @@
 # Portfolio
-My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on a Junior tester position. I hold an ***ISTQB Foundation certificate***, which I earned after completing hands-on training provided by an experienced software tester in cooperation with ***CODE:ME***. I test popular websites, as well as applications provided for this purpose. I acquire new skills while learning courses from platforms: ***Pluralsight, Udemy*** and ***edX***. The ability to catch anomalies gained during my work as a Health and Safety Inspector and my intuition help me during my practice of testing skills.
+My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on a **Junior tester position**. I hold an ***ISTQB Foundation certificate***, which I earned after completing hands-on training provided by an experienced software tester in cooperation with ***CODE:ME***. I test popular websites, as well as applications provided for this purpose. I acquire new skills while learning courses from platforms: ***Pluralsight, Udemy*** and ***edX***. The ability to catch anomalies gained during my work as a Health and Safety Inspector and my intuition help me during my practice of testing skills.
 # Tools
 - [Postman](https://www.postman.com/)
 - [Jira](https://www.atlassian.com/software/jira)
