@@ -41,3 +41,4 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 # My bug reports
 # My examples of Postman
 # My examples of SQL
+# My projects
