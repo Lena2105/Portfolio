@@ -44,6 +44,7 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [https://testerzy.pl/](https://testerzy.pl/)
 - [Testuj.pl](https://testuj.pl/blog/)
 - [Quality Island](https://qualityisland.pl/blog/)
+- [testerka.pl](https://testerka.pl/)
 - [Digitally Her](http://digitallyher.pl/)
 - [ITea Morning - Maciej Wyrodek](https://www.youtube.com/@ITeaMorning/about)
 - [Norbert Jankowski - Testowanie Oprogramowania](https://www.youtube.com/@TestowaniePodcast)
