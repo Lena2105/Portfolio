@@ -40,3 +40,4 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 # My test case examples
 # My bug reports
 # My examples of Postman
+# My examples of SQL
