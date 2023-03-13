@@ -40,6 +40,15 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 # Books
 - Zawód tester. Od decyzji do zdobycia doświadczenia Radosław Smilgin
 - Testowanie Oprogramowania w Praktyce Adam Roman, 
+# Blogs, thematic websites
+- [https://testerzy.pl/](https://testerzy.pl/)
+- [Testuj.pl](https://testuj.pl/blog/)
+- [Quality Island](https://qualityisland.pl/blog/)
+- [Digitally Her](http://digitallyher.pl/)
+- [ITea Morning - Maciej Wyrodek](https://www.youtube.com/@ITeaMorning/about)
+- [Norbert Jankowski - Testowanie Oprogramowania](https://www.youtube.com/@TestowaniePodcast)
+- [AkademiaQA](https://www.youtube.com/@akademiaqa)
+- [Testuj.pl](https://www.youtube.com/@testujplcommunity)
 # My test case examples
 # My bug reports
 # My examples of Postman
