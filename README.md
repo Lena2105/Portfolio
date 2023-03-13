@@ -31,3 +31,10 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [Testowanie Oprogramowania](https://1drv.ms/b/s!Arn5vK3tcZDQhcE7Puc9jtNxTEWKqA?e=cGNcmr)
 - [SCRUM](https://1drv.ms/b/s!Arn5vK3tcZDQhcE_d1RfYNC23wFXAQ?e=oLOqwx)
 - [Green Digital Skills](https://1drv.ms/b/s!Arn5vK3tcZDQhcE9hWFjnyQkqoLD2g?e=ASBhTz)
+# Courses
+- [CODE:ME Podstawy testowania w praktyce](https://codeme.pl/kursy/testowanie-zdalnie)
+- CODE:ME : Scrum training for beginners
+- GoIT: Basics of HTML, CSS
+- [Pluralsight: Software Testing and Quality Assurance: The Big Picture](https://app.pluralsight.com/library/courses/software-testing-quality-assurance-big-picture/table-of-contents)
+- [Udemy: Practical Software Testing Course](https://www.udemy.com/course/praktyczny-kurs-testowania-oprogramowania/learn/lecture/28938764?start=945#overview)
+- [Pluralsight: Postman 8 Fundamentals](https://app.pluralsight.com/library/courses/postman-fundamentals/table-of-contents)
