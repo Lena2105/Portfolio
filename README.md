@@ -1,2 +1,33 @@
 # Portfolio
 My Tester's Portfolio
+My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on a Junior tester position. I hold an ***ISTQB Foundation certificate***, which I earned after completing hands-on training provided by an experienced software tester in cooperation with ***CODE:ME***. I test popular websites, as well as applications provided for this purpose. I acquire new skills while learning courses from platforms: ***Pluralsight, Udemy*** and ***edX***. The ability to catch anomalies gained during my work as a Health and Safety Inspector and my intuition help me during my practice of testing skills.
+# Tools
+- [Postman](https://www.postman.com/)
+- [Jira](https://www.atlassian.com/software/jira)
+- [TestLink](https://test-link.pl/login.php)
+- [PicPick](https://picpick.app/pl/features)
+- [ShareX](https://getsharex.com/)
+- [BrowserStack](https://www.browserstack.com/)
+- Github
+- [Chrome User Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg)
+- [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm)
+- [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=pl)
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
+- [GoFullPage](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
+- [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+- [Mind Meister](https://www.mindmeister.com/)
+# Tech skills
+- REST API
+- SQL
+- SCRUM
+- Software testing
+- Creating test cases
+- Reporting bugs
+- CSS Basics
+- HTML Basics
+- Dev Tools
+# Certificates
+- [ISTQB](https://1drv.ms/b/s!Arn5vK3tcZDQhcE8kTW0qc_7iv5gfw?e=Y6uhpu)
+- [Testowanie Oprogramowania](https://1drv.ms/b/s!Arn5vK3tcZDQhcE7Puc9jtNxTEWKqA?e=cGNcmr)
+- [SCRUM](https://1drv.ms/b/s!Arn5vK3tcZDQhcE_d1RfYNC23wFXAQ?e=oLOqwx)
+- [Green Digital Skills](https://1drv.ms/b/s!Arn5vK3tcZDQhcE9hWFjnyQkqoLD2g?e=ASBhTz)
