@@ -40,7 +40,7 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [Pluralsight: Postman 8 Fundamentals](https://app.pluralsight.com/library/courses/postman-fundamentals/table-of-contents)
 # Books
 - Zawód tester. Od decyzji do zdobycia doświadczenia Radosław Smilgin
-- Testowanie Oprogramowania w Praktyce Adam Roman, Karolina Zmitrowicz
+- Testowanie Oprogramowania w Praktyce Adam Roman, Karolina Zmitrowicz (w trakcie)
 # Blogs, thematic websites
 - [https://testerzy.pl/](https://testerzy.pl/)
 - [Testuj.pl](https://testuj.pl/blog/)
