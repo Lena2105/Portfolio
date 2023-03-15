@@ -42,7 +42,7 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - Zawód tester. Od decyzji do zdobycia doświadczenia Radosław Smilgin
 - Testowanie Oprogramowania w Praktyce Adam Roman, Karolina Zmitrowicz (w trakcie)
 # Blogs, thematic websites
-- [https://testerzy.pl/](https://testerzy.pl/)
+- [testerzy.pl](https://testerzy.pl/)
 - [Testuj.pl](https://testuj.pl/blog/)
 - [Quality Island](https://qualityisland.pl/blog/)
 - [testerka.pl](https://testerka.pl/)
