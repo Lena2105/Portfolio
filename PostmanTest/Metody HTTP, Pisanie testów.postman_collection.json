@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "cf532dcc-8453-400d-a772-06bae619b8e3",
+		"name": "Metody HTTP, Pisanie testów",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Verification of data updated",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verifies that the data has been added\", ()=>{\r",
+							"    const responseJson = pm.response.json();\r",
+							"    pm.expect(responseJson.userId).to.eql(45);\r",
+							"    pm.expect(responseJson.id).to.eql(2); \r",
+							"    pm.expect(responseJson.title).to.eql(\"Hello Postman\");\r",
+							"    pm.expect(responseJson.completed).to.eql(true);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": 45,\r\n    \"id\": 2,\r\n    \"title\": \"Hello Postman\",\r\n    \"completed\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/todos/2",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"todos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Verification of data added",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", ()=>{\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verifies that the data has been added\", ()=>{\r",
+							"    const responseJson = pm.response.json();\r",
+							"    pm.expect(responseJson.userId).to.eql(888);\r",
+							"    pm.expect(responseJson.title).to.eql(\"Hello good Postman\");\r",
+							"    pm.expect(responseJson.completed).to.eql(true);\r",
+							"    pm.expect(responseJson.id).to.eql(201);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": 888,\r\n    \"title\": \"Hello good Postman\",\r\n    \"completed\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://jsonplaceholder.typicode.com/todos",
+					"protocol": "http",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Verification of data download",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verification of data\", () =>{\r",
+							"    const userData = pm.response.json();\r",
+							"    console.log(userData);\r",
+							"    pm.expect(userData.id).to.eql(10);\r",
+							"    pm.expect(userData.name).to.eql(\"Clementina DuBuque\");\r",
+							"    pm.expect(userData.username).to.eql(\"Moriah.Stanton\");\r",
+							"    pm.expect(userData.email).to.eql(\"Rey.Padberg@karina.biz\");\r",
+							"    pm.expect(userData.phone).to.eql(\"024-648-3804\");\r",
+							"    pm.expect(userData.website).to.eql(\"ambrose.net\");\r",
+							"    var userAddress = userData.address;\r",
+							"    console.log(userAddress);\r",
+							"    pm.expect(userAddress.street).to.eql(\"Kattie Turnpike\");\r",
+							"    pm.expect(userAddress.suite).to.eql(\"Suite 198\");\r",
+							"    pm.expect(userAddress.city).to.eql(\"Lebsackbury\");\r",
+							"    pm.expect(userAddress.zipcode).to.eql(\"31428-2261\");\r",
+							"    var userGeo = userAddress.geo;\r",
+							"    console.log(userGeo);\r",
+							"    pm.expect(userGeo.lat).to.eql(\"-38.2386\");\r",
+							"    pm.expect(userGeo.lng).to.eql(\"57.2232\");\r",
+							"    var userCompany = userData.company;\r",
+							"    console.log(userCompany);\r",
+							"    pm.expect(userCompany.name).to.eql(\"Hoeger LLC\");\r",
+							"    pm.expect(userCompany.catchPhrase).to.eql(\"Centralized empowering task-force\");\r",
+							"    pm.expect(userCompany.bs).to.eql(\"target end-to-end models\");\r",
+							"    \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users/10",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users",
+						"10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
