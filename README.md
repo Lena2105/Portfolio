@@ -50,7 +50,7 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [ITea Morning - Maciej Wyrodek](https://www.youtube.com/@ITeaMorning/about)
 - [Norbert Jankowski - Testowanie Oprogramowania](https://www.youtube.com/@TestowaniePodcast)
 - [AkademiaQA](https://www.youtube.com/@akademiaqa)
-- [Testuj.pl](https://www.youtube.com/@testujplcommunity)
+- [Testuj.pl YouTube](https://www.youtube.com/@testujplcommunity)
 # My test case examples
 # My bug reports
 # My examples of Postman
