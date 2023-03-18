@@ -49,10 +49,10 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [Quality Island](https://qualityisland.pl/blog/)
 - [testerka.pl](https://testerka.pl/)
 - [Digitally Her](http://digitallyher.pl/)
-- [ITea Morning - Maciej Wyrodek](https://www.youtube.com/@ITeaMorning/about)
 - [Norbert Jankowski - Testowanie Oprogramowania](https://www.youtube.com/@TestowaniePodcast)
 - [AkademiaQA](https://www.youtube.com/@akademiaqa)
 - [Testuj.pl YouTube](https://www.youtube.com/@testujplcommunity)
+- [ITea Morning - Maciej Wyrodek](https://www.youtube.com/@ITeaMorning/about)
 # My test case examples
 # My bug reports
 # My examples of Postman
