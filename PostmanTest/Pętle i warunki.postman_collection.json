@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "f7f16059-a6df-47a6-8fcb-c80f996316ce",
+		"name": "Pętle i warunki",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ResponseIdEqualTwo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Verfy content of response\", ()=> {\r",
+							"    const responseJson = pm.response.json();\r",
+							"    pm.expect(responseJson.userId).to.eql(1);\r",
+							"    pm.expect(responseJson.id).to.eql(2);\r",
+							"    pm.expect(responseJson.title).to.eql(\"quis ut nam facilis et officia qui\");\r",
+							"    pm.expect(responseJson.completed).to.eql(false);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verfy type of content response\", ()=> {\r",
+							"    const responseJson = pm.response.json();\r",
+							"    console.log(typeof(responseJson.completed));\r",
+							"    \r",
+							"    pm.expect(typeof(responseJson.userId)).to.eql(\"number\");\r",
+							"    pm.expect(typeof(responseJson.id)).to.eql(\"number\");\r",
+							"    pm.expect(typeof(responseJson.title)).to.eql(\"string\");\r",
+							"    pm.expect(typeof(responseJson.completed)).to.eql(\"boolean\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Content-Type header is response\",() => {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Content-Type header is applicatnion/json\", () => {\r",
+							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.eql('application/json; charset=utf-8');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verfy content of header Server\",()=> {\r",
+							"    pm.expect(pm.response.headers.get(\"Server\")).to.eql(\"cloudflare\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://jsonplaceholder.typicode.com/todos/2",
+					"protocol": "http",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"todos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ResponseItemList",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status Code is 200\", ()=>{\r",
+							"    pm.expect(pm.response.code).to.eql(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Length of returned post is equal 200\", ()=>{\r",
+							"    const restData = pm.response.json();\r",
+							"    var textForLog = \"Zmienna długosć wynosi = \"+restData.length;\r",
+							"    console.log(textForLog);\r",
+							"    pm.expect(restData.length).to.eql(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Length of returned post when completed is equal 110 \", ()=>{\r",
+							"    const restData = pm.response.json();\r",
+							"    var countNumbers110 = 0;\r",
+							"    for(var index = 0; index <= restData.length-1; index++)\r",
+							"    {\r",
+							"        var objectTemp = restData[index];\r",
+							"        //console.log(objectTemp);\r",
+							"        if(objectTemp.completed ==false){\r",
+							"            countNumbers110++;\r",
+							"            console.log(countNumbers110);\r",
+							"        }\r",
+							"    }\r",
+							"    pm.expect(countNumbers110).to.eql(110);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"console.log(\"------------------------\")\r",
+							"console.log(\"Start test Length of returned post when completed is equal 90\")\r",
+							"pm.test(\"Length of returned post when completed is equal 90 \", ()=>{\r",
+							"    const restData = pm.response.json();\r",
+							"    var countNumbers90 = 0;\r",
+							"    for(var index = 0; index <= restData.length-1; index++)\r",
+							"    {\r",
+							"        var objectTemp = restData[index];\r",
+							"        console.log(objectTemp);\r",
+							"        if(objectTemp.completed ==true){\r",
+							"            countNumbers90++;\r",
+							"        \r",
+							"        }\r",
+							"    }\r",
+							"    pm.expect(countNumbers90).to.eql(90);\r",
+							"});\r",
+							"    console.log(\"End test \");\r",
+							"    console.log(\"------------------------\");\r",
+							"\r",
+							"pm.test(\"Length of returned post when completed is equal 110 and when completed is equal 90\", ()=>{\r",
+							"    const restData = pm.response.json();\r",
+							"    var countNumbers110 = 0;\r",
+							"    var countNumbers90 = 0;\r",
+							"    for(var index = 0; index <= restData.length-1; index++)\r",
+							"    {\r",
+							"        var objectTemp = restData[index];\r",
+							"        console.log(objectTemp);\r",
+							"        if(objectTemp.completed ==false){\r",
+							"           \r",
+							"            countNumbers110++;\r",
+							"        }\r",
+							"        if(objectTemp.completed ==true){\r",
+							"            countNumbers90++;\r",
+							"        }\r",
+							"    }\r",
+							"pm.expect(countNumbers110).to.eql(110);\r",
+							"pm.expect(countNumbers90).to.eql(90);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Length of returned post when completed is equal 110 and when completed is equal 90 with ELSE\", ()=>{\r",
+							"    const restData = pm.response.json();\r",
+							"    var countNumbers110 = 0;\r",
+							"    var countNumbers90 = 0;\r",
+							"    for(var index = 0; index <= restData.length-1; index++)\r",
+							"    {\r",
+							"        var objectTemp = restData[index];\r",
+							"        console.log(objectTemp);\r",
+							"        if(objectTemp.completed ==false){\r",
+							"            countNumbers110++;\r",
+							"        }\r",
+							"        else{\r",
+							"            countNumbers90++;\r",
+							"        }\r",
+							"\r",
+							"    }\r",
+							"pm.expect(countNumbers110).to.eql(110);\r",
+							"pm.expect(countNumbers90).to.eql(90);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"completed is one of true or false\",()=>{\r",
+							"    const restData = pm.response.json();\r",
+							"    var temp = [false,true]\r",
+							"    \r",
+							"    for(var index = 0; index <= restData.length-1; index++)\r",
+							"    {\r",
+							"        var objectTemp = restData[index];\r",
+							"        console.log(objectTemp);\r",
+							"     pm.expect(objectTemp.completed).to.be.oneOf([false,true]);   \r",
+							"     pm.expect(objectTemp.completed).to.be.oneOf(temp);   \r",
+							"    }\r",
+							"})\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://jsonplaceholder.typicode.com/todos",
+					"protocol": "http",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
