@@ -58,5 +58,6 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 # My examples of Postman
 - [Postman Tests - Metody HTTP i Pisanie Testów](https://github.com/Lena2105/Portfolio/blob/main/PostmanTest/Metody%20HTTP%2C%20Pisanie%20test%C3%B3w.postman_collection.json)
 - [Postman Tests - Pętle i Warunki](https://github.com/Lena2105/Portfolio/blob/main/PostmanTest/P%C4%99tle%20i%20warunki.postman_collection.json)
+- [Postman Tests - Zmienne Środowiskowe](https://github.com/Lena2105/Portfolio/tree/main/PostmanTest/ZmienneSrodowiskowe)
 # My examples of SQL
 # My projects
