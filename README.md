@@ -8,6 +8,7 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [ShareX](https://getsharex.com/)
 - [BrowserStack](https://www.browserstack.com/)
 - Github
+- [Sourcetree](https://www.sourcetreeapp.com/)
 - [Chrome User Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg)
 - [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm)
 - [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=pl)
@@ -25,6 +26,7 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - CSS Basics
 - HTML Basics
 - Git
+- Sourcetree
 - Dev Tools
 # Certificates
 - [ISTQB](https://1drv.ms/b/s!Arn5vK3tcZDQhcE8kTW0qc_7iv5gfw?e=Y6uhpu)
@@ -47,10 +49,10 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [Quality Island](https://qualityisland.pl/blog/)
 - [testerka.pl](https://testerka.pl/)
 - [Digitally Her](http://digitallyher.pl/)
-- [ITea Morning - Maciej Wyrodek](https://www.youtube.com/@ITeaMorning/about)
 - [Norbert Jankowski - Testowanie Oprogramowania](https://www.youtube.com/@TestowaniePodcast)
 - [AkademiaQA](https://www.youtube.com/@akademiaqa)
 - [Testuj.pl YouTube](https://www.youtube.com/@testujplcommunity)
+- [ITea Morning - Maciej Wyrodek](https://www.youtube.com/@ITeaMorning/about)
 # My test case examples
 # My bug reports
 # My examples of Postman
