@@ -18,6 +18,7 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [Mind Meister](https://www.mindmeister.com/)
 # Tech skills
 - REST API
+- SOAP API
 - SQL
 - SCRUM
 - Software testing
