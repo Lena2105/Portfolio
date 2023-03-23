@@ -78,6 +78,123 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Verification of the correctness of the ISBN13",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verification of the correctness of the ISBN13\", () =>{\r",
+							"    var jsonObject = xml2Json(responseBody);\r",
+							"    console.log(jsonObject);\r",
+							"    var envelopObj = jsonObject[\"soap:Envelope\"];\r",
+							"    var resultObj = envelopObj[\"soap:Body\"][\"m:IsValidISBN13Response\"][\"m:IsValidISBN13Result\"];\r",
+							"    console.log(resultObj);\r",
+							"    pm.expect(resultObj).to.eql('true');\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <IsValidISBN13 xmlns=\"http://webservices.daehosting.com/ISBN\">\r\n      <sISBN>978-1-4612-9090-2</sISBN>\r\n    </IsValidISBN13>\r\n  </soap:Body>\r\n</soap:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://webservices.daehosting.com/services/isbnservice.wso",
+					"protocol": "http",
+					"host": [
+						"webservices",
+						"daehosting",
+						"com"
+					],
+					"path": [
+						"services",
+						"isbnservice.wso"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Verification of the number of countries in the response is 407",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verification of the number of countries in the response is 407 \",()=>{\r",
+							"    var jsonObject = xml2Json(responseBody);\r",
+							"    console.log(jsonObject);\r",
+							"    var envelopObj = jsonObject[\"soap:Envelope\"];\r",
+							"    var responseObj = envelopObj[\"soap:Body\"][\"m:ListOfLanguagesByNameResponse\"][\"m:ListOfLanguagesByNameResult\"][\"m:tLanguage\"];\r",
+							"    console.log(responseObj);\r",
+							"    pm.expect(responseObj.length).to.eql(407);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <ListOfLanguagesByName xmlns=\"http://www.oorsprong.org/websamples.countryinfo\">\r\n    </ListOfLanguagesByName>\r\n  </soap:Body>\r\n</soap:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso",
+					"protocol": "http",
+					"host": [
+						"webservices",
+						"oorsprong",
+						"org"
+					],
+					"path": [
+						"websamples.countryinfo",
+						"CountryInfoService.wso"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
