@@ -149,6 +149,16 @@
 							"    var responseObj = envelopObj[\"soap:Body\"][\"m:ListOfLanguagesByNameResponse\"][\"m:ListOfLanguagesByNameResult\"][\"m:tLanguage\"];\r",
 							"    console.log(responseObj);\r",
 							"    pm.expect(responseObj.length).to.eql(407);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verify that the answer includes the country Turkish, Ottoman (1500 - 1928)\", ()=>{\r",
+							"    var jsonObject = xml2Json(responseBody);\r",
+							"    console.log(jsonObject);\r",
+							"    var envelopObj = jsonObject[\"soap:Envelope\"];\r",
+							"    var responseObj = envelopObj[\"soap:Body\"][\"m:ListOfLanguagesByNameResponse\"][\"m:ListOfLanguagesByNameResult\"][\"m:tLanguage\"];\r",
+							"    console.log(responseObj);\r",
+							"    pm.expect(pm.response.text()).to.include(\"Turkish, Ottoman (1500 - 1928)\");\r",
+							"    \r",
 							"});"
 						],
 						"type": "text/javascript"
