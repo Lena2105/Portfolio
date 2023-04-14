@@ -59,7 +59,8 @@ My name is Magdalena Dzięcioł-Janiszewska. I am currently looking for a job on
 - [TestRail - Na podstawie specyfikacji. Testy Funkcjonalne nr 1](https://1drv.ms/i/s!Arn5vK3tcZDQhcNEKsxGd8O398-GiQ?e=2M0ufL)
 - [TestRail - Na podstawie specyfikacji. Testy Funkcjonalne nr 2](https://1drv.ms/i/s!Arn5vK3tcZDQhcNFYB5q-lmm9Lc-vA?e=F5Ryt1)
 # My bug reports
-- 
+- [Jira nr 1](https://1drv.ms/i/s!Arn5vK3tcZDQhcNHnvVZM0YETBoqxg?e=qD7xiR)
+- [Jira nr 2](https://1drv.ms/i/s!Arn5vK3tcZDQhcNJMNYpgmyrdioQFg?e=L6KFwW)
 - 
 # My examples of Postman
 - [Postman Tests - Metody HTTP i Pisanie Testów](https://github.com/Lena2105/Portfolio/blob/main/PostmanTest/Metody%20HTTP%2C%20Pisanie%20test%C3%B3w.postman_collection.json)
